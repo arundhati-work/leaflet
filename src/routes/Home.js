@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import LandingContent from "../components/LandingContent";
+import Footer from "../components/Footer";
+import Spacing from "../components/Spacing";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
         <Navbar />
         <LandingContent />
       </div>
+      <Spacing />
+      <Footer />
     </div>
   );
 }
