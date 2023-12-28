@@ -10,8 +10,10 @@ export default function LandingContent() {
           Subscribe to our newsletter to receive tips and information about
           gardening. Also discounts on our products and more...
         </p>
-        <button>SUBSCRIBE</button>
-        <button>SHOP NOW</button>
+        <div className="landing-buttons">
+          <button>SUBSCRIBE</button>
+          <button>SHOP NOW</button>
+        </div>
       </div>
     </div>
   );

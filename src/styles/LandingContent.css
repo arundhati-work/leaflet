@@ -47,5 +47,33 @@
 .landing-inner-container button:hover{
     background-color: #e6e5e5;
     color: #222222;
-    margin: 1rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .landing-content-container{
+        height: 70vh;
+        text-align: left;
+    }
+
+    .landing-inner-container h1{
+        font-size: 4.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .landing-inner-container p{
+        font-size: 1.5rem;
+    }
+
+    .landing-buttons{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: start;
+    }
+
+    .landing-buttons button{
+        width: unset;
+        padding: 1rem 5rem;
+        margin-right: 3rem;
+    }
 }
